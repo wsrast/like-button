@@ -11,8 +11,10 @@
 	-webkit-transition: width 2s, transform 0.2s;
 	transition: width 2s, transform 0.2s;
 	transform: scale(1,1);
-	margin: 0 8px;
 	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	margin: 4px;
 }
 
 .like-emoji .emoji:hover {

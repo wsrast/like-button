@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4239"
+   version="1.1"
+   viewBox="0 0 54.364758 54.364758"
+   height="54.364758mm"
+   width="54.364758mm">
+  <defs
+     id="defs4233">
+    <linearGradient
+       y2="783.28601"
+       x2="20138.9"
+       y1="3465.52"
+       x1="20138.9"
+       gradientUnits="userSpaceOnUse"
+       id="id1">
+      <stop
+         id="stop3819"
+         style="stop-opacity:1; stop-color:#FCDC6B"
+         offset="0" />
+      <stop
+         id="stop3821"
+         style="stop-opacity:1; stop-color:#DF4158"
+         offset="1" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata4236">
+  </metadata>
+  <g
+     transform="translate(-80.162864,-123.91881)"
+     id="layer1">
+    <g
+       id="g3885"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(0.02027023,0,0,0.02027023,-300.87692,108.04722)">
+      <circle
+         style="fill:url(#id1)"
+         id="circle3877"
+         r="1341"
+         cy="2124"
+         cx="20139"
+         class="fil7" />
+      <path
+         style="fill:#201e1e"
+         id="path3879"
+         d="m 20305,2993 c 269,0 296,59 296,106 0,48 -133,67 -296,67 -164,0 -297,-19 -297,-67 0,-47 27,-106 297,-106 z"
+         class="fil5" />
+      <path
+         style="fill:#201e1e"
+         id="path3881"
+         d="m 19326,2683 c 0,73 59,85 131,106 8,2 16,4 24,7 35,78 118,134 214,134 62,0 118,-23 160,-60 28,4 56,6 85,9 42,3 65,6 91,-17 37,-35 39,-116 -48,-131 l -206,-24 c -85,-12 -242,-47 -327,-78 -15,-6 -30,-11 -45,-13 h -16 c -13,1 -26,7 -40,20 -9,8 -23,31 -23,47 z m 242,135 c 7,2 15,4 22,5 -7,-1 -15,-3 -22,-5 z"
+         class="fil5" />
+      <path
+         style="fill:#201e1e"
+         id="path3883"
+         d="m 21258,2697 c 0,69 -56,80 -125,100 -7,2 -14,4 -22,6 -33,74 -111,127 -202,127 -58,0 -111,-22 -150,-56 -27,3 -54,5 -81,8 -39,3 -61,6 -85,-17 -35,-33 -38,-109 44,-123 l 195,-22 c 81,-12 228,-45 308,-74 14,-5 28,-11 43,-12 h 15 c 12,1 24,7 37,18 9,9 23,30 23,45 z m -229,127 c -7,2 -14,4 -21,5 7,-1 14,-3 21,-5 z"
+         class="fil5" />
+    </g>
+  </g>
+</svg>

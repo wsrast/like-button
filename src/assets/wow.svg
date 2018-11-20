@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4143"
+   version="1.1"
+   viewBox="0 0 54.364758 54.364758"
+   height="54.364758mm"
+   width="54.364758mm">
+  <defs
+     id="defs4137" />
+  <metadata
+     id="metadata4140">
+  </metadata>
+  <g
+     transform="translate(-77.139051,-119.3831)"
+     id="layer1">
+    <g
+       id="g3875"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(0.02027023,0,0,0.02027023,-163.56993,103.51151)">
+      <circle
+         style="fill:#fcdc6b"
+         id="circle3859"
+         r="1341"
+         cy="2124"
+         cx="13216"
+         class="fil4" />
+      <g
+         id="g3867">
+        <g
+           id="g3865">
+          <path
+             style="fill:#201e1e"
+             id="path3861"
+             d="m 12392,1204 c 0,62 77,97 126,55 14,-13 27,-35 56,-57 12,-8 20,-15 33,-22 56,-28 100,-3 138,39 50,57 136,25 136,-48 0,-61 -222,-287 -450,-41 -7,7 -6,7 -11,14 -13,16 -28,30 -28,60 z"
+             class="fil5" />
+          <path
+             style="fill:#201e1e"
+             id="path3863"
+             d="m 13570,1171 c 0,63 61,93 108,70 19,-10 49,-49 79,-63 44,-21 80,-8 115,21 11,9 19,15 29,25 16,16 47,73 109,48 14,-5 22,-12 31,-23 11,-14 16,-26 18,-38 v -14 c -4,-29 -28,-51 -38,-64 -42,-55 -144,-117 -221,-117 -54,0 -112,24 -145,48 l -53,43 c -5,6 -4,6 -9,12 -12,15 -23,23 -23,52 z"
+             class="fil5" />
+        </g>
+      </g>
+      <ellipse
+         style="fill:#201e1e"
+         cy="0"
+         cx="0"
+         id="ellipse3869"
+         ry="268"
+         rx="137"
+         transform="matrix(1.43407,0,-0.0857114,1.03294,12611,1815.45)"
+         class="fil5" />
+      <ellipse
+         style="fill:#201e1e"
+         cy="0"
+         cx="0"
+         id="ellipse3871"
+         ry="268"
+         rx="137"
+         transform="matrix(-1.43407,0,0.0857114,1.03294,13832.4,1815.45)"
+         class="fil5" />
+      <ellipse
+         style="fill:#201e1e"
+         id="ellipse3873"
+         ry="544"
+         rx="331"
+         cy="2720"
+         cx="13218"
+         class="fil5" />
+    </g>
+  </g>
+</svg>

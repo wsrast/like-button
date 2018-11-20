@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4049"
+   version="1.1"
+   viewBox="0 0 54.364758 54.364758"
+   height="54.364758mm"
+   width="54.364758mm">
+  <defs
+     id="defs4043" />
+  <metadata
+     id="metadata4046">
+  </metadata>
+  <g
+     transform="translate(-62.020002,-136.77)"
+     id="layer1">
+    <g
+       id="g4001"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(0.02027023,0,0,0.02027023,-37.952772,120.89841)">
+      <circle
+         class="fil2"
+         cx="6273"
+         cy="2124"
+         r="1341"
+         id="circle3831"
+         style="fill:#f50953" />
+      <path
+         class="fil3"
+         d="m 6273,1619 c 117,-203 235,-304 470,-304 259,0 470,310 470,533 0,405 -562,844 -940,1086 -340,-209 -940,-681 -940,-1086 0,-223 211,-533 470,-533 235,0 352,101 470,304 z"
+         id="path3835"
+         style="fill:#fefefe;fill-rule:nonzero" />
+    </g>
+  </g>
+</svg>

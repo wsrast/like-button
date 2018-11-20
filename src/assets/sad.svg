@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg4191"
+   version="1.1"
+   viewBox="0 0 53.675568 53.675568"
+   height="53.675568mm"
+   width="53.675568mm">
+  <defs
+     id="defs4185" />
+  <metadata
+     id="metadata4188">
+  </metadata>
+  <g
+     transform="translate(-74.459832,-125.77531)"
+     id="layer1">
+    <g
+       id="g3905"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(0.02027023,0,0,0.02027023,-236.80982,109.55913)">
+      <circle
+         style="fill:#fcdc6b"
+         id="circle3887"
+         r="1324"
+         cy="2124"
+         cx="16680"
+         class="fil4" />
+      <ellipse
+         style="fill:#201e1e"
+         id="ellipse3889"
+         ry="214"
+         rx="181"
+         cy="2304"
+         cx="16053"
+         class="fil5" />
+      <ellipse
+         style="fill:#201e1e"
+         id="ellipse3891"
+         ry="214"
+         rx="181"
+         cy="2304"
+         cx="17300"
+         class="fil5" />
+      <g
+         id="g3899">
+        <g
+           id="g3897">
+          <path
+             style="fill:#201e1e"
+             id="path3893"
+             d="m 17168,1913 c 0,49 27,82 74,82 28,0 114,-39 203,20 28,19 42,59 86,59 40,0 72,-30 76,-68 4,-42 -30,-70 -52,-92 -48,-49 -134,-75 -213,-80 h -41 c -74,4 -133,31 -133,79 z"
+             class="fil5" />
+          <path
+             style="fill:#201e1e"
+             id="path3895"
+             d="m 15841,2074 c 74,0 75,-119 251,-87 22,4 20,8 45,8 75,0 105,-113 18,-145 -23,-9 -51,-14 -80,-16 h -40 c -80,4 -167,32 -212,78 -23,23 -55,48 -54,87 1,40 34,75 72,75 z"
+             class="fil5" />
+        </g>
+      </g>
+      <path
+         style="fill:#201e1e"
+         id="path3901"
+         d="m 16319,2981 c 0,50 24,86 74,86 21,0 48,-18 63,-27 127,-77 250,-89 386,-34 57,23 108,92 169,36 18,-17 21,-30 21,-57 0,-39 -26,-54 -49,-70 -88,-62 -189,-91 -291,-91 -109,0 -218,31 -313,89 -12,7 -28,15 -38,24 -8,8 -22,29 -22,44 z"
+         class="fil5" />
+      <path
+         style="fill:#6383c1;fill-rule:nonzero"
+         id="path3903"
+         d="m 17471,2779 c 35,133 214,318 214,424 0,106 -54,213 -214,213 -161,0 -214,-107 -214,-213 0,-106 180,-298 214,-424 z"
+         class="fil8" />
+    </g>
+  </g>
+</svg>
