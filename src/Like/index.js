@@ -1,29 +1,57 @@
 import React, {Component} from 'react';
 import LikeEmoji from './LikeEmoji';
 import styled from 'styled-components';
+import {ReactComponent as ThumbIcon} from '../assets/thumb-icon.svg';
 
-const BtnStyled = styled.input`
-	background-color: #61dafb;
-	border: 1px solid red;
-	min-width: 50px;
+const BtnStyled = styled.div`
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	flex-direction: column;
+	
+	position: relative;
+	
+	color: ${props => props.color};
+	background-color: #fff; 
+	min-width: 150px;
+	border: 1px solid ${props => props.color};
 	border-radius: 4px;
+	
 	padding: 8px;
 	
-	&:hover {
-		background-color: #fc0;
+	&, & > * {
+		cursor: pointer;
 	}
+	
+	&:hover {
+		background-color: #eee;
+	}
+	
+	.thumb {
+		width: ${props => props.size};
+		height: ${props => props.size};
+	}
+`;
+
+const LabelStyled = styled.label`
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 50%;
 `;
 
 export default class Like extends Component {
 
 	static defaultProps = {
-		test: 'foo'
+		color: '#616770',
+		size: '30px'
 	};
 
 	constructor (props) {
 		super(props);
 		this.state = {
-			collapsed: false
+			collapsed: false,
+			over: false
 		}
 	}
 
@@ -31,8 +59,11 @@ export default class Like extends Component {
 		return (
 			<div className="like">
 				<div>Like Button</div>
-				<BtnStyled type="button" value={this.state.collapsed} />
-				<LikeEmoji />
+				<BtnStyled {...this.props}>
+					<LabelStyled><ThumbIcon className="thumb" /><span>Like</span></LabelStyled>
+                    <LikeEmoji collapsed={this.state.collapsed} />
+				</BtnStyled>
+
 			</div>
 		);
 	}

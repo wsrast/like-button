@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
 import {ReactComponent as LikeSVG} from '../../assets/like.svg';
 import {ReactComponent as LoveSVG} from '../../assets/love.svg';
 import {ReactComponent as HahaSVG} from '../../assets/haha.svg';
@@ -13,6 +14,10 @@ const LikeEmojiStyled = styled.div`
 	border-radius: 4px;
 	padding: 2px;
 	
+	position: absolute;
+	top: ${props => props.offset}px;
+	width: ${props => 6 * props.size + 12 * props.margin}px;
+	
 	&:hover {
 		background-color: #444;
 	}
@@ -23,9 +28,9 @@ const LikeEmojiStyled = styled.div`
 		transition: transform 0.2s;
 		transform: scale(1,1);
 		cursor: pointer;
-		width: 30px;
-		height: 30px;
-		margin: 4px;
+		width: ${props => props.size}px;
+		height: ${props => props.size}px;
+		margin: ${props => props.margin}px;
 		
 		&:hover {
 			transform: scale(1.3, 1.3);
@@ -35,9 +40,19 @@ const LikeEmojiStyled = styled.div`
 
 export default class LikeEmoji extends Component {
 
+	static defaultProps = {
+		margin: 4,
+		offset: 54,
+		size: 30
+	};
+
+	static propTypes = {
+		collapsed: PropTypes.bool
+	};
+
 	render() {
 		return (
-			<LikeEmojiStyled className="like-emoji">
+			<LikeEmojiStyled className="like-emoji" {...this.props}>
 				<LikeSVG className="emoji"/>
 				<LoveSVG className="emoji"/>
 				<HahaSVG className="emoji"/>
