@@ -18,7 +18,7 @@ export default class Like extends Component {
 	render () {
 		return (
 			<div className="like">
-				<div>Hi from the Like button</div>
+				<div>Like Button</div>
 				<input type="button" value={this.state.collapsed} />
 				<LikeEmoji />
 			</div>
