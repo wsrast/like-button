@@ -1,0 +1,11 @@
+.like-emoji {
+	background-color: #282c34;
+	-webkit-transition: width 2s;
+	transition: width 2s;
+	width: 300px
+}
+
+.like-emoji:hover {
+	background-color: crimson;
+	width: 400px;
+}
