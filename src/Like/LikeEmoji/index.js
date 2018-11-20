@@ -42,7 +42,7 @@ export default class LikeEmoji extends Component {
 
 	static defaultProps = {
 		margin: 4,
-		offset: 54,
+		offset: 50,
 		size: 30
 	};
 

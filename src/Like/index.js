@@ -37,20 +37,22 @@ const LabelStyled = styled.label`
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-width: 50%;
+	min-width: 70%;
 `;
 
 export default class Like extends Component {
 
 	static defaultProps = {
 		color: '#616770',
-		size: '30px'
+		size: 'calc(10px + 3vmin)'
 	};
 
 	constructor (props) {
 		super(props);
 		this.state = {
 			collapsed: false,
+			liked: false,
+			likeValue: -1,
 			over: false
 		}
 	}
