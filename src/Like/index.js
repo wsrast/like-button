@@ -1,6 +1,14 @@
 import React, {Component} from 'react';
-import './index.css';
 import LikeEmoji from './LikeEmoji';
+import styled from 'styled-components';
+
+const BtnStyled = styled.input`
+	background-color: #61dafb;
+	border: 1px solid red;
+	min-width: 50px;
+	border-radius: 4px;
+	padding: 8px;
+`;
 
 export default class Like extends Component {
 
@@ -8,8 +16,8 @@ export default class Like extends Component {
 		test: 'foo'
 	};
 
-	constructor () {
-		super();
+	constructor (props) {
+		super(props);
 		this.state = {
 			collapsed: false
 		}
@@ -19,7 +27,7 @@ export default class Like extends Component {
 		return (
 			<div className="like">
 				<div>Like Button</div>
-				<input type="button" value={this.state.collapsed} />
+				<BtnStyled type="button" value={this.state.collapsed} />
 				<LikeEmoji />
 			</div>
 		);
