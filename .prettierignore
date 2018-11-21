@@ -1,0 +1,10 @@
+.babelrc
+.editorconfig
+.eslintrc.json
+.prettierrc.json
+package-lock.json
+package.json
+README.md
+yarn-error.log
+yarn.lock
+src/lib/adal.js

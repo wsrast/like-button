@@ -13,25 +13,28 @@ const LikeEmojiStyled = styled.div`
 	background-color: #383c44;
 	border-radius: 4px;
 	padding: 2px;
-	
+	opacity: ${({collapsed}) => (collapsed ? 1.0 : 0)};
+	-webkit-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+
 	position: absolute;
-	top: ${props => props.offset}px;
-	width: ${props => 6 * props.size + 12 * props.margin}px;
-	
+	top: ${(props) => props.offset}px;
+	width: ${(props) => 6 * props.size + 12 * props.margin}px;
+
 	&:hover {
 		background-color: #444;
 	}
-	
+
 	.emoji {
 		display: inline-block;
 		-webkit-transition: transform 0.2s;
 		transition: transform 0.2s;
-		transform: scale(1,1);
+		transform: scale(1, 1);
 		cursor: pointer;
-		width: ${props => props.size}px;
-		height: ${props => props.size}px;
-		margin: ${props => props.margin}px;
-		
+		width: ${(props) => props.size}px;
+		height: ${(props) => props.size}px;
+		margin: ${(props) => props.margin}px;
+
 		&:hover {
 			transform: scale(1.3, 1.3);
 		}
@@ -39,10 +42,12 @@ const LikeEmojiStyled = styled.div`
 `;
 
 export default class LikeEmoji extends Component {
-
 	static defaultProps = {
+		collapsed: true,
 		margin: 4,
 		offset: 50,
+		offsetOutTarget: 70,
+		offsetOverTarget: 50,
 		size: 30
 	};
 
@@ -53,13 +58,13 @@ export default class LikeEmoji extends Component {
 	render() {
 		return (
 			<LikeEmojiStyled className="like-emoji" {...this.props}>
-				<LikeSVG className="emoji"/>
-				<LoveSVG className="emoji"/>
-				<HahaSVG className="emoji"/>
-				<WowSVG className="emoji"/>
-				<SadSVG className="emoji"/>
-				<AngrySVG className="emoji"/>
+				<LikeSVG className="emoji" />
+				<LoveSVG className="emoji" />
+				<HahaSVG className="emoji" />
+				<WowSVG className="emoji" />
+				<SadSVG className="emoji" />
+				<AngrySVG className="emoji" />
 			</LikeEmojiStyled>
-		)
+		);
 	}
 }
