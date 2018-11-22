@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import LikeEmoji from './LikeEmoji';
 import styled from 'styled-components';
 import {ReactComponent as ThumbIcon} from '../assets/thumb-icon.svg';
+import Icon from './Icon';
 
 const BtnStyled = styled.div`
 	display: flex;
@@ -85,7 +86,7 @@ export default class Like extends Component {
 					onClick={this.handleClick}
 				>
 					<LabelStyled>
-						<ThumbIcon className="thumb" />
+						<Icon type="thumb" />
 						<span>Like</span>
 					</LabelStyled>
 					<LikeEmoji collapsed={this.state.collapsed} />

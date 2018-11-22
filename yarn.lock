@@ -845,7 +845,7 @@
 
 "@iamstarkov/listr-update-renderer@0.4.1":
   version "0.4.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/@iamstarkov/listr-update-renderer/-/listr-update-renderer-0.4.1.tgz#d7c48092a2dcf90fd672b6c8b458649cb350c77e"
+  resolved "https://registry.yarnpkg.com/@iamstarkov/listr-update-renderer/-/listr-update-renderer-0.4.1.tgz#d7c48092a2dcf90fd672b6c8b458649cb350c77e"
   integrity sha512-IJyxQWsYDEkf8C8QthBn5N8tIUR9V9je6j3sMIpAkonaadjbvxmRC6RAhpa3RKxndhNnU2M6iNbtJwd7usQYIA==
   dependencies:
     chalk "^1.1.3"
@@ -872,8 +872,8 @@
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
-  integrity sha1-7N9I1TLFjqR3rPyrgDSEJPjQZi8=
+  resolved "https://registry.yarnpkg.com/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.0.tgz#ecdf48d532c58ea477acfcab80348424f8d0662f"
+  integrity sha512-MI4Xx6LHs4Webyvi6EbspgyAb4D2Q2VtnCQ1blOJcoLS6mVa8lNN2rkIy1CVxfTUpoyIbCTkXES1rLXztFD1lg==
   dependencies:
     any-observable "^0.3.0"
 
@@ -1186,8 +1186,8 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
 
 any-observable@^0.3.0:
   version "0.3.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/any-observable/-/any-observable-0.3.0.tgz#af933475e5806a67d0d7df090dd5e8bef65d119b"
-  integrity sha1-r5M0deWAamfQ198JDdXovvZdEZs=
+  resolved "https://registry.yarnpkg.com/any-observable/-/any-observable-0.3.0.tgz#af933475e5806a67d0d7df090dd5e8bef65d119b"
+  integrity sha512-/FQM1EDkTsf63Ub2C6O7GuYFDsSXUwsaZDurV0np41ocwq0jthUAYCmhBX9f+KwlaCgIuWyr/4WlUQUBfKfZog==
 
 anymatch@^2.0.0:
   version "2.0.0"
@@ -2206,7 +2206,7 @@ cli-cursor@^2.0.0, cli-cursor@^2.1.0:
 
 cli-truncate@^0.2.1:
   version "0.2.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/cli-truncate/-/cli-truncate-0.2.1.tgz#9f15cfbb0705005369216c626ac7d05ab90dd574"
+  resolved "https://registry.yarnpkg.com/cli-truncate/-/cli-truncate-0.2.1.tgz#9f15cfbb0705005369216c626ac7d05ab90dd574"
   integrity sha1-nxXPuwcFAFNpIWxiasfQWrkN1XQ=
   dependencies:
     slice-ansi "0.0.4"
@@ -2475,8 +2475,8 @@ core-util-is@1.0.2, core-util-is@~1.0.0:
 
 cosmiconfig@5.0.6:
   version "5.0.6"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/cosmiconfig/-/cosmiconfig-5.0.6.tgz#dca6cf680a0bd03589aff684700858c81abeeb39"
-  integrity sha1-3KbPaAoL0DWJr/aEcAhYyBq+6zk=
+  resolved "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-5.0.6.tgz#dca6cf680a0bd03589aff684700858c81abeeb39"
+  integrity sha512-6DWfizHriCrFWURP1/qyhsiFvYdlJzbCzmtFWh744+KyWsJo5+kPzUZZaMRSSItoYc0pxFX7gEO7ZC1/gN/7AQ==
   dependencies:
     is-directory "^0.3.1"
     js-yaml "^3.9.0"
@@ -2810,8 +2810,8 @@ data-urls@^1.0.0, data-urls@^1.0.1:
 
 date-fns@^1.27.2:
   version "1.29.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/date-fns/-/date-fns-1.29.0.tgz#12e609cdcb935127311d04d33334e2960a2a54e6"
-  integrity sha1-EuYJzcuTUScxHQTTMzTilgoqVOY=
+  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-1.29.0.tgz#12e609cdcb935127311d04d33334e2960a2a54e6"
+  integrity sha512-lbTXWZ6M20cWH8N9S6afb0SBm6tMk+uUg6z3MqHPKE9atmsY3kJkTm8vKe93izJ2B2+q5MV990sM2CHgtAZaOw==
 
 date-now@^0.1.4:
   version "0.1.4"
@@ -2865,7 +2865,7 @@ decode-uri-component@^0.2.0:
 
 dedent@^0.7.0:
   version "0.7.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
+  resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz#2495ddbaf6eb874abb0e1be9df22d2e5a544326c"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
 deep-equal@^1.0.1:
@@ -3173,7 +3173,7 @@ electron-to-chromium@^1.3.62, electron-to-chromium@^1.3.82:
 
 elegant-spinner@^1.0.1:
   version "1.0.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
+  resolved "https://registry.yarnpkg.com/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
   integrity sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=
 
 elliptic@^6.0.0:
@@ -3548,8 +3548,8 @@ execa@^0.7.0:
 
 execa@^1.0.0:
   version "1.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/execa/-/execa-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
-  integrity sha1-xiNqW7TfbW8V6I5/AXeYIWdJ3dg=
+  resolved "https://registry.yarnpkg.com/execa/-/execa-1.0.0.tgz#c6236a5bb4df6d6f15e88e7f017798216749ddd8"
+  integrity sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA==
   dependencies:
     cross-spawn "^6.0.0"
     get-stream "^4.0.0"
@@ -3779,7 +3779,7 @@ figgy-pudding@^3.1.0, figgy-pudding@^3.5.1:
 
 figures@^1.7.0:
   version "1.7.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/figures/-/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"
+  resolved "https://registry.yarnpkg.com/figures/-/figures-1.7.0.tgz#cbe1e3affcf1cd44b80cadfed28dc793a9701d2e"
   integrity sha1-y+Hjr/zxzUS4DK3+0o3Hk6lwHS4=
   dependencies:
     escape-string-regexp "^1.0.5"
@@ -3889,7 +3889,7 @@ find-cache-dir@^2.0.0:
 
 find-parent-dir@^0.3.0:
   version "0.3.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/find-parent-dir/-/find-parent-dir-0.3.0.tgz#33c44b429ab2b2f0646299c5f9f718f376ff8d54"
+  resolved "https://registry.yarnpkg.com/find-parent-dir/-/find-parent-dir-0.3.0.tgz#33c44b429ab2b2f0646299c5f9f718f376ff8d54"
   integrity sha1-M8RLQpqysvBkYpnF+fcY83b/jVQ=
 
 find-up@3.0.0, find-up@^3.0.0:
@@ -4090,8 +4090,8 @@ functional-red-black-tree@^1.0.1:
 
 g-status@^2.0.2:
   version "2.0.2"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/g-status/-/g-status-2.0.2.tgz#270fd32119e8fc9496f066fe5fe88e0a6bc78b97"
-  integrity sha1-Jw/TIRno/JSW8Gb+X+iOCmvHi5c=
+  resolved "https://registry.yarnpkg.com/g-status/-/g-status-2.0.2.tgz#270fd32119e8fc9496f066fe5fe88e0a6bc78b97"
+  integrity sha512-kQoE9qH+T1AHKgSSD0Hkv98bobE90ILQcXAF4wvGgsr7uFqNvwmh8j+Lq3l0RVt3E3HjSbv2B9biEGcEtpHLCA==
   dependencies:
     arrify "^1.0.1"
     matcher "^1.0.0"
@@ -4123,8 +4123,8 @@ get-own-enumerable-property-symbols@^3.0.0:
 
 get-stdin@^6.0.0:
   version "6.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
-  integrity sha1-ngm/cSs2CrkiXoEgSPcf3pyJZXs=
+  resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
+  integrity sha512-jp4tHawyV7+fkkSKyvjuLZswblUtz+SQKzSWnBbii16BuZksJlU1wuBYXY75r+duh/llF1ur6oNwi+2ZzjKZ7g==
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -4133,8 +4133,8 @@ get-stream@^3.0.0:
 
 get-stream@^4.0.0:
   version "4.1.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
-  integrity sha1-wbJVV189wh1Zv8ec09K0axw6VLU=
+  resolved "https://registry.yarnpkg.com/get-stream/-/get-stream-4.1.0.tgz#c1b255575f3dc21d59bfc79cd3d2b46b1c3a54b5"
+  integrity sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==
   dependencies:
     pump "^3.0.0"
 
@@ -4597,7 +4597,7 @@ https-browserify@^1.0.0:
 
 husky@^1.2.0:
   version "1.2.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/husky/-/husky-1.2.0.tgz#d631dda1e4a9ee8ba69a10b0c51a0e2c66e711e5"
+  resolved "https://registry.yarnpkg.com/husky/-/husky-1.2.0.tgz#d631dda1e4a9ee8ba69a10b0c51a0e2c66e711e5"
   integrity sha512-/ib3+iycykXC0tYIxsyqierikVa9DA2DrT32UEirqNEFVqOj1bFMTgP3jAz8HM7FgC/C8pc/BTUa9MV2GEkZaA==
   dependencies:
     cosmiconfig "^5.0.6"
@@ -4721,7 +4721,7 @@ imurmurhash@^0.1.4:
 
 indent-string@^3.0.0:
   version "3.2.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
+  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
   integrity sha1-Sl/W0nzDMvN+VBmlBNu4NxBckok=
 
 indexes-of@^1.0.1:
@@ -5040,8 +5040,8 @@ is-obj@^1.0.0, is-obj@^1.0.1:
 
 is-observable@^1.1.0:
   version "1.1.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/is-observable/-/is-observable-1.1.0.tgz#b3e986c8f44de950867cab5403f5a3465005975e"
-  integrity sha1-s+mGyPRN6VCGfKtUA/WjRlAFl14=
+  resolved "https://registry.yarnpkg.com/is-observable/-/is-observable-1.1.0.tgz#b3e986c8f44de950867cab5403f5a3465005975e"
+  integrity sha512-NqCa4Sa2d+u7BWc6CukaObG3Fh+CU9bvixbpcXYhy2VvYS7vVGIdAgnIS5Ks3A/cqk4rebLJ9s8zBstT2aKnIA==
   dependencies:
     symbol-observable "^1.1.0"
 
@@ -5873,7 +5873,7 @@ levn@^0.3.0, levn@~0.3.0:
 
 lint-staged@^8.1.0:
   version "8.1.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/lint-staged/-/lint-staged-8.1.0.tgz#dbc3ae2565366d8f20efb9f9799d076da64863f2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-8.1.0.tgz#dbc3ae2565366d8f20efb9f9799d076da64863f2"
   integrity sha512-yfSkyJy7EuVsaoxtUSEhrD81spdJOe/gMTGea3XaV7HyoRhTb9Gdlp6/JppRZERvKSEYXP9bjcmq6CA5oL2lYQ==
   dependencies:
     "@iamstarkov/listr-update-renderer" "0.4.1"
@@ -5904,13 +5904,13 @@ lint-staged@^8.1.0:
 
 listr-silent-renderer@^1.1.1:
   version "1.1.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/listr-silent-renderer/-/listr-silent-renderer-1.1.1.tgz#924b5a3757153770bf1a8e3fbf74b8bbf3f9242e"
+  resolved "https://registry.yarnpkg.com/listr-silent-renderer/-/listr-silent-renderer-1.1.1.tgz#924b5a3757153770bf1a8e3fbf74b8bbf3f9242e"
   integrity sha1-kktaN1cVN3C/Go4/v3S4u/P5JC4=
 
 listr-update-renderer@^0.5.0:
   version "0.5.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/listr-update-renderer/-/listr-update-renderer-0.5.0.tgz#4ea8368548a7b8aecb7e06d8c95cb45ae2ede6a2"
-  integrity sha1-Tqg2hUinuK7LfgbYyVy0WuLt5qI=
+  resolved "https://registry.yarnpkg.com/listr-update-renderer/-/listr-update-renderer-0.5.0.tgz#4ea8368548a7b8aecb7e06d8c95cb45ae2ede6a2"
+  integrity sha512-tKRsZpKz8GSGqoI/+caPmfrypiaq+OQCbd+CovEC24uk1h952lVj5sC7SqyFUm+OaJ5HN/a1YLt5cit2FMNsFA==
   dependencies:
     chalk "^1.1.3"
     cli-truncate "^0.2.1"
@@ -5923,8 +5923,8 @@ listr-update-renderer@^0.5.0:
 
 listr-verbose-renderer@^0.5.0:
   version "0.5.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/listr-verbose-renderer/-/listr-verbose-renderer-0.5.0.tgz#f1132167535ea4c1261102b9f28dac7cba1e03db"
-  integrity sha1-8RMhZ1NepMEmEQK58o2sfLoeA9s=
+  resolved "https://registry.yarnpkg.com/listr-verbose-renderer/-/listr-verbose-renderer-0.5.0.tgz#f1132167535ea4c1261102b9f28dac7cba1e03db"
+  integrity sha512-04PDPqSlsqIOaaaGZ+41vq5FejI9auqTInicFRndCBgE3bXG8D6W1I+mWhk+1nqbHmyhla/6BUrd5OSiHwKRXw==
   dependencies:
     chalk "^2.4.1"
     cli-cursor "^2.1.0"
@@ -5933,8 +5933,8 @@ listr-verbose-renderer@^0.5.0:
 
 listr@^0.14.2:
   version "0.14.3"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/listr/-/listr-0.14.3.tgz#2fea909604e434be464c50bddba0d496928fa586"
-  integrity sha1-L+qQlgTkNL5GTFC926DUlpKPpYY=
+  resolved "https://registry.yarnpkg.com/listr/-/listr-0.14.3.tgz#2fea909604e434be464c50bddba0d496928fa586"
+  integrity sha512-RmAl7su35BFd/xoMamRjpIE4j3v+L28o8CT5YhAXQJm1fD+1l9ngXY8JAQRJ+tFK2i5njvi0iRUKV09vPwA0iA==
   dependencies:
     "@samverschueren/stream-to-observable" "^0.3.0"
     is-observable "^1.1.0"
@@ -6062,21 +6062,21 @@ lodash.uniq@^4.5.0:
 
 log-symbols@^1.0.2:
   version "1.0.2"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-1.0.2.tgz#376ff7b58ea3086a0f09facc74617eca501e1a18"
   integrity sha1-N2/3tY6jCGoPCfrMdGF+ylAeGhg=
   dependencies:
     chalk "^1.0.0"
 
 log-symbols@^2.2.0:
   version "2.2.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
-  integrity sha1-V0Dhxdbw39pK2TI7UzIQfva0xAo=
+  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
+  integrity sha512-VeIAFslyIerEJLXHziedo2basKbMKtTw3vfn5IzG0XTjhAVEJyNHnL2p7vc+wBDSdQuUpNw3M2u6xb9QsAY5Eg==
   dependencies:
     chalk "^2.0.1"
 
 log-update@^2.3.0:
   version "2.3.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/log-update/-/log-update-2.3.0.tgz#88328fd7d1ce7938b29283746f0b1bc126b24708"
+  resolved "https://registry.yarnpkg.com/log-update/-/log-update-2.3.0.tgz#88328fd7d1ce7938b29283746f0b1bc126b24708"
   integrity sha1-iDKP19HOeTiykoN0bwsbwSayRwg=
   dependencies:
     ansi-escapes "^3.0.0"
@@ -6148,8 +6148,8 @@ map-visit@^1.0.0:
 
 matcher@^1.0.0:
   version "1.1.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/matcher/-/matcher-1.1.1.tgz#51d8301e138f840982b338b116bb0c09af62c1c2"
-  integrity sha1-UdgwHhOPhAmCszixFrsMCa9iwcI=
+  resolved "https://registry.yarnpkg.com/matcher/-/matcher-1.1.1.tgz#51d8301e138f840982b338b116bb0c09af62c1c2"
+  integrity sha512-+BmqxWIubKTRKNWx/ahnCkk3mG8m7OturVlqq6HiojGJTd5hVYbgZm6WzcYPCoB+KBT4Vd6R7WSRG2OADNaCjg==
   dependencies:
     escape-string-regexp "^1.0.4"
 
@@ -6654,8 +6654,8 @@ npm-packlist@^1.1.6:
 
 npm-path@^2.0.2:
   version "2.0.4"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/npm-path/-/npm-path-2.0.4.tgz#c641347a5ff9d6a09e4d9bce5580c4f505278e64"
-  integrity sha1-xkE0el/51qCeTZvOVYDE9QUnjmQ=
+  resolved "https://registry.yarnpkg.com/npm-path/-/npm-path-2.0.4.tgz#c641347a5ff9d6a09e4d9bce5580c4f505278e64"
+  integrity sha512-IFsj0R9C7ZdR5cP+ET342q77uSRdtWOlWpih5eC+lu29tIDbNEgDbzgVJ5UFvYHWhxDZ5TFkJafFioO0pPQjCw==
   dependencies:
     which "^1.2.10"
 
@@ -6668,7 +6668,7 @@ npm-run-path@^2.0.0:
 
 npm-which@^3.0.1:
   version "3.0.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/npm-which/-/npm-which-3.0.1.tgz#9225f26ec3a285c209cae67c3b11a6b4ab7140aa"
+  resolved "https://registry.yarnpkg.com/npm-which/-/npm-which-3.0.1.tgz#9225f26ec3a285c209cae67c3b11a6b4ab7140aa"
   integrity sha1-kiXybsOihcIJyuZ8OxGmtKtxQKo=
   dependencies:
     commander "^2.9.0"
@@ -6950,8 +6950,8 @@ p-map@^1.1.1:
 
 p-map@^2.0.0:
   version "2.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/p-map/-/p-map-2.0.0.tgz#be18c5a5adeb8e156460651421aceca56c213a50"
-  integrity sha1-vhjFpa3rjhVkYGUUIazspWwhOlA=
+  resolved "https://registry.yarnpkg.com/p-map/-/p-map-2.0.0.tgz#be18c5a5adeb8e156460651421aceca56c213a50"
+  integrity sha512-GO107XdrSUmtHxVoi60qc9tUl/KkNKm+X2CF4P9amalpGxv5YqVPJNfSb0wcA+syCopkZvYYIzW8OVTQW59x/w==
 
 p-try@^1.0.0:
   version "1.0.0"
@@ -7183,8 +7183,8 @@ pkg-up@2.0.0:
 
 please-upgrade-node@^3.0.2, please-upgrade-node@^3.1.1:
   version "3.1.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/please-upgrade-node/-/please-upgrade-node-3.1.1.tgz#ed320051dfcc5024fae696712c8288993595e8ac"
-  integrity sha1-7TIAUd/MUCT65pZxLIKImTWV6Kw=
+  resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.1.1.tgz#ed320051dfcc5024fae696712c8288993595e8ac"
+  integrity sha512-KY1uHnQ2NlQHqIJQpnh/i54rKkuxCEBx+voJIS/Mvb+L2iYd2NMotwduhKTMjfC1uKoX3VXOxLjIYG66dfJTVQ==
   dependencies:
     semver-compare "^1.0.0"
 
@@ -7833,15 +7833,10 @@ preserve@^0.2.0:
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
   integrity sha1-gV7R9uvGWSb4ZbMQwHE7yzMVzks=
 
-prettier@^1.14.2:
+prettier@^1.14.2, prettier@^1.15.2:
   version "1.15.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
   integrity sha512-YgPLFFA0CdKL4Eg2IHtUSjzj/BWgszDHiNQAe0VAIBse34148whfdzLagRL+QiKS+YfK5ftB6X4v/MBw8yCoug==
-
-prettier@^1.15.2:
-  version "1.15.2"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/prettier/-/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
-  integrity sha1-0xq+Iq+kNR76FMf4uUtYu3RSIF4=
 
 pretty-bytes@^4.0.2:
   version "4.0.2"
@@ -8237,7 +8232,7 @@ read-pkg@^2.0.0:
 
 read-pkg@^4.0.1:
   version "4.0.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/read-pkg/-/read-pkg-4.0.1.tgz#963625378f3e1c4d48c85872b5a6ec7d5d093237"
+  resolved "https://registry.yarnpkg.com/read-pkg/-/read-pkg-4.0.1.tgz#963625378f3e1c4d48c85872b5a6ec7d5d093237"
   integrity sha1-ljYlN48+HE1IyFhytabsfV0JMjc=
   dependencies:
     normalize-package-data "^2.3.2"
@@ -8586,8 +8581,8 @@ run-async@^2.2.0:
 
 run-node@^1.0.0:
   version "1.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/run-node/-/run-node-1.0.0.tgz#46b50b946a2aa2d4947ae1d886e9856fd9cabe5e"
-  integrity sha1-RrULlGoqotSUeuHYhumFb9nKvl4=
+  resolved "https://registry.yarnpkg.com/run-node/-/run-node-1.0.0.tgz#46b50b946a2aa2d4947ae1d886e9856fd9cabe5e"
+  integrity sha512-kc120TBlQ3mih1LSzdAJXo4xn/GWS2ec0l3S+syHDXP9uRr0JAT8Qd3mdMuyjqCzeZktgP3try92cEgf9Nks8A==
 
 run-queue@^1.0.0, run-queue@^1.0.3:
   version "1.0.3"
@@ -8699,7 +8694,7 @@ selfsigned@^1.9.1:
 
 semver-compare@^1.0.0:
   version "1.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
 
 "semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1, semver@^5.5.0, semver@^5.5.1:
@@ -8850,8 +8845,8 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
 
 simple-git@^1.85.0:
   version "1.107.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/simple-git/-/simple-git-1.107.0.tgz#12cffaf261c14d6f450f7fdb86c21ccee968b383"
-  integrity sha1-Es/68mHBTW9FD3/bhsIczulos4M=
+  resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-1.107.0.tgz#12cffaf261c14d6f450f7fdb86c21ccee968b383"
+  integrity sha512-t4OK1JRlp4ayKRfcW6owrWcRVLyHRUlhGd0uN6ZZTqfDq8a5XpcUdOKiGRNobHEuMtNqzp0vcJNvhYWwh5PsQA==
   dependencies:
     debug "^4.0.1"
 
@@ -8874,12 +8869,12 @@ slash@^1.0.0:
 
 slash@^2.0.0:
   version "2.0.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
-  integrity sha1-3lUoUaF1nfOo8gZTVEL17E3eq0Q=
+  resolved "https://registry.yarnpkg.com/slash/-/slash-2.0.0.tgz#de552851a1759df3a8f206535442f5ec4ddeab44"
+  integrity sha512-ZYKh3Wh2z1PpEXWr0MpSBZ0V6mZHAQfYevttO11c51CaWjGTaadiKZ+wVt1PbMlDV5qhMFslpZCemhwOK7C89A==
 
 slice-ansi@0.0.4:
   version "0.0.4"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
+  resolved "https://registry.yarnpkg.com/slice-ansi/-/slice-ansi-0.0.4.tgz#edbf8903f66f7ce2f8eafd6ceed65e264c831b35"
   integrity sha1-7b+JA/ZvfOL46v1s7tZeJkyDGzU=
 
 slice-ansi@1.0.0:
@@ -9089,8 +9084,8 @@ stack-utils@^1.0.1:
 
 staged-git-files@1.1.2:
   version "1.1.2"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/staged-git-files/-/staged-git-files-1.1.2.tgz#4326d33886dc9ecfa29a6193bf511ba90a46454b"
-  integrity sha1-QybTOIbcns+immGTv1EbqQpGRUs=
+  resolved "https://registry.yarnpkg.com/staged-git-files/-/staged-git-files-1.1.2.tgz#4326d33886dc9ecfa29a6193bf511ba90a46454b"
+  integrity sha512-0Eyrk6uXW6tg9PYkhi/V/J4zHp33aNyi2hOCmhFLqLTIhbgqWn5jlSzI+IU0VqrZq6+DbHcabQl/WP6P3BG0QA==
 
 static-extend@^0.1.1:
   version "0.1.2"
@@ -9149,7 +9144,7 @@ stream-shift@^1.0.0:
 
 string-argv@^0.0.2:
   version "0.0.2"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/string-argv/-/string-argv-0.0.2.tgz#dac30408690c21f3c3630a3ff3a05877bdcbd736"
+  resolved "https://registry.yarnpkg.com/string-argv/-/string-argv-0.0.2.tgz#dac30408690c21f3c3630a3ff3a05877bdcbd736"
   integrity sha1-2sMECGkMIfPDYwo/86BYd73L1zY=
 
 string-length@^2.0.0:
@@ -9326,8 +9321,8 @@ svgo@^1.0.0, svgo@^1.0.5:
 
 symbol-observable@^1.1.0:
   version "1.2.0"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
-  integrity sha1-wiaIrtTqs83C3+rLtWFmBWCgCAQ=
+  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
+  integrity sha512-e900nM8RRtGhlV36KGEU9k65K3mPb1WV70OdjfxlG2EAuM1noi/E/BaW/uMhL7bPEssK8QV57vN3esixjUvcXQ==
 
 symbol-tree@^3.2.2:
   version "3.2.2"
@@ -10179,7 +10174,7 @@ wrap-ansi@^2.0.0:
 
 wrap-ansi@^3.0.1:
   version "3.0.1"
-  resolved "https://voltron-test.pkgs.visualstudio.com/_packaging/npm-feed/npm/registry/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
+  resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-3.0.1.tgz#288a04d87eda5c286e060dfe8f135ce8d007f8ba"
   integrity sha1-KIoE2H7aXChuBg3+jxNc6NAH+Lo=
   dependencies:
     string-width "^2.1.1"
@@ -10251,9 +10246,9 @@ y18n@^3.2.1:
   integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
 
 yallist@^3.0.0, yallist@^3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.2.tgz#8452b4bb7e83c7c188d8041c1a837c773d6d8bb9"
-  integrity sha1-hFK0u36Dx8GI2AQcGoN8dz1ti7k=
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
+  integrity sha512-S+Zk8DEWE6oKpV+vI3qWkaK+jSbIK86pCwe2IF/xwIpQ8jEuxpw9NyaGjmp9+BoJv5FV2piqCDcoCtStppiq2A==
 
 yargs-parser@^10.1.0:
   version "10.1.0"

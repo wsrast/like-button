@@ -1,11 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {ReactComponent as LikeSVG} from '../../assets/like.svg';
-import {ReactComponent as LoveSVG} from '../../assets/love.svg';
-import {ReactComponent as HahaSVG} from '../../assets/haha.svg';
-import {ReactComponent as WowSVG} from '../../assets/wow.svg';
-import {ReactComponent as SadSVG} from '../../assets/sad.svg';
-import {ReactComponent as AngrySVG} from '../../assets/angry.svg';
+import Icon from '../Icon';
 
 import styled from 'styled-components';
 
@@ -58,12 +53,12 @@ export default class LikeEmoji extends Component {
 	render() {
 		return (
 			<LikeEmojiStyled className="like-emoji" {...this.props}>
-				<LikeSVG className="emoji" />
-				<LoveSVG className="emoji" />
-				<HahaSVG className="emoji" />
-				<WowSVG className="emoji" />
-				<SadSVG className="emoji" />
-				<AngrySVG className="emoji" />
+				<Icon type="like" />
+				<Icon type="love" />
+				<Icon type="haha" />
+				<Icon type="wow" />
+				<Icon type="sad" />
+				<Icon type="angry" />
 			</LikeEmojiStyled>
 		);
 	}
