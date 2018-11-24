@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Icon from '../Icon';
+import C from '../../util/constants';
 
 import styled from 'styled-components';
 
-const LikeEmojiStyled = styled.div`
+const LikeEmojiStyled = styled.div.attrs({
+	'data-id': 'LikeEmoji'
+})`
 	background-color: #383c44;
 	border-radius: 4px;
 	padding: 2px;
@@ -53,12 +56,15 @@ export default class LikeEmoji extends Component {
 	render() {
 		return (
 			<LikeEmojiStyled className="like-emoji" {...this.props}>
-				<Icon type="like" />
-				<Icon type="love" />
-				<Icon type="haha" />
-				<Icon type="wow" />
-				<Icon type="sad" />
-				<Icon type="angry" />
+				{Object.keys(C.EMOJI).map((emoji) => {
+					return (
+						<Icon
+							key={emoji}
+							type={C.EMOJI[emoji]}
+							onClick={this.props.onClick}
+						/>
+					);
+				})}
 			</LikeEmojiStyled>
 		);
 	}

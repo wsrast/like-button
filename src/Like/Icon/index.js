@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
+
 import {ReactComponent as ThumbIcon} from '../../assets/thumb-icon.svg';
 
 import {ReactComponent as LikeSVG} from '../../assets/like.svg';
@@ -10,32 +10,31 @@ import {ReactComponent as WowSVG} from '../../assets/wow.svg';
 import {ReactComponent as SadSVG} from '../../assets/sad.svg';
 import {ReactComponent as AngrySVG} from '../../assets/angry.svg';
 
-export default class Icon extends Component {
-	static defaultProps = {
-		type: 'thumb'
-	};
+import C from '../../util/constants';
 
-	static propTypes = {
-		type: PropTypes.string
-	};
+const Icon = (props) => {
+	const {type} = props;
+	return (
+		<span>
+			{type === C.THUMB && <ThumbIcon {...props} className="thumb" />}
+			{type === C.EMOJI.LIKE && <LikeSVG {...props} />}
+			{type === C.EMOJI.LOVE && <LoveSVG {...props} />}
+			{type === C.EMOJI.HAHA && <HahaSVG {...props} />}
+			{type === C.EMOJI.WOW && <WowSVG {...props} />}
+			{type === C.EMOJI.SAD && <SadSVG {...props} />}
+			{type === C.EMOJI.ANGRY && <AngrySVG {...props} />}
+		</span>
+	);
+};
 
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
+Icon.defaultProps = {
+	type: 'thumb',
+	className: 'emoji'
+};
 
-	render() {
-		const {type} = this.props;
-		return (
-			<span>
-				{type === 'thumb' && <ThumbIcon className="thumb" />}
-				{type === 'like' && <LikeSVG className="emoji" />}
-				{type === 'love' && <LoveSVG className="emoji" />}
-				{type === 'haha' && <HahaSVG className="emoji" />}
-				{type === 'wow' && <WowSVG className="emoji" />}
-				{type === 'sad' && <SadSVG className="emoji" />}
-				{type === 'angry' && <AngrySVG className="emoji" />}
-			</span>
-		);
-	}
-}
+Icon.propTypes = {
+	type: PropTypes.string,
+	className: PropTypes.string
+};
+
+export default Icon;
