@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import {ReactComponent as ThumbIcon} from '../../assets/thumb-icon.svg';
 
@@ -12,10 +13,16 @@ import {ReactComponent as AngrySVG} from '../../assets/angry.svg';
 
 import C from '../../util/constants';
 
+const sIcon = styled.div`
+	display:flex;
+	justify-content: center;
+	align-items: center;
+`;
+
 const Icon = (props) => {
 	const {type} = props;
 	return (
-		<span>
+		<sIcon>
 			{type === C.THUMB && <ThumbIcon {...props} className="thumb" />}
 			{type === C.EMOJI.LIKE && <LikeSVG {...props} />}
 			{type === C.EMOJI.LOVE && <LoveSVG {...props} />}
@@ -23,7 +30,7 @@ const Icon = (props) => {
 			{type === C.EMOJI.WOW && <WowSVG {...props} />}
 			{type === C.EMOJI.SAD && <SadSVG {...props} />}
 			{type === C.EMOJI.ANGRY && <AngrySVG {...props} />}
-		</span>
+		</sIcon>
 	);
 };
 

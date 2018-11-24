@@ -48,7 +48,7 @@ const LabelStyled = styled.label`
 export default class Like extends Component {
 	static defaultProps = {
 		color: '#616770',
-		size: 'calc(10px + 3vmin)'
+		size: '30px'
 	};
 
 	constructor(props) {
