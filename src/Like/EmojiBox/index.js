@@ -5,18 +5,20 @@ import C from '../../util/constants';
 
 import styled from 'styled-components';
 
-const LikeEmojiStyled = styled.div.attrs({
-	'data-id': 'LikeEmoji'
+const EmojiBoxStyled = styled.div.attrs({
+	'data-id': 'EmojiBox'
 })`
+	height: ${props => `${props.theme.size.value + 2*props.theme.margin.value}px`}
+	
 	background-color: #383c44;
-	border-radius: ${props => props.size/2 + props.margin +4}px;
-	opacity: ${({collapsed}) => (collapsed ? 1.0 : 0)};
+	border-radius: ${props => props.theme.size.value/2 + props.theme.margin.value }px;
+	opacity: ${({collapsed}) => (collapsed ? 0 : 1.0)};
 	-webkit-transition: opacity 0.2s;
 	transition: opacity 0.2s;
 
 	position: absolute;
 	top: ${props => props.offset}px;
-	width: ${props => 6 * props.size + 12 * props.margin}px;
+	width: ${props => 6 * props.theme.size.value + 12 * props.theme.margin.value}px;
 
 	&:hover {
 		background-color: #444;
@@ -27,9 +29,9 @@ const LikeEmojiStyled = styled.div.attrs({
 		transition: transform 0.2s;
 		transform: scale(1, 1);
 		cursor: pointer;
-		width: ${props => props.size}px;
-		height: ${props => props.size}px;
-		margin: ${props => props.margin}px;
+		width: ${props => props.theme.size.value}px;
+		height: ${props => props.theme.size.value}px;
+		margin: ${props => props.theme.margin.value}px;
 		&:hover {
 			transform: scale(1.3, 1.3);
 		}
@@ -41,17 +43,16 @@ const SlideContainer = styled.div`
 	grid-template-columns: repeat(6,1fr);
 	grid-template-rows: 100%;
 	position: relative;
-	top: 2px;
+	top: 0px;
 `;
 
-export default class LikeEmoji extends Component {
+export default class EmojiBox extends Component {
 	static defaultProps = {
 		collapsed: true,
 		margin: 4,
 		offset: 50,
 		offsetOutTarget: 70,
-		offsetOverTarget: 50,
-		size: 30
+		offsetOverTarget: 50
 	};
 
 	static propTypes = {
@@ -60,7 +61,7 @@ export default class LikeEmoji extends Component {
 
 	render() {
 		return (
-			<LikeEmojiStyled className="like-emoji" {...this.props}>
+			<EmojiBoxStyled className="like-emoji" {...this.props}>
 				<SlideContainer>
 					{Object.keys(C.EMOJI).map((emoji) => {
 						return (
@@ -72,7 +73,7 @@ export default class LikeEmoji extends Component {
 						);
 					})}
 				</SlideContainer>
-			</LikeEmojiStyled>
+			</EmojiBoxStyled>
 		);
 	}
 }

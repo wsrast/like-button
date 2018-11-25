@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import LikeEmoji from './LikeEmoji';
+import EmojiBox from './EmojiBox';
 import styled from 'styled-components';
 import Icon from './Icon';
 import C from '../util/constants';
@@ -14,10 +14,13 @@ const BtnStyled = styled.div.attrs({
 
 	position: relative;
 
-	color: ${(props) => props.color};
+	color: ${(props) => {
+		//console.log(`props: `, props);
+		return (props.selected) ? props.theme.selected: props.theme.unselected
+	}};
 	background-color: #fff;
 	min-width: 150px;
-	border: 1px solid ${(props) => props.color};
+	border: 1px solid ${(props) => props.unselected};
 	border-radius: 4px;
 
 	padding: 8px;
@@ -33,8 +36,8 @@ const BtnStyled = styled.div.attrs({
 
 	.thumb,
 	.emoji {
-		width: ${(props) => props.size};
-		height: ${(props) => props.size};
+		width: ${({theme:{size}}) => `${size.value}${size.units}`};
+		height: ${({theme:{size}}) => `${size.value}${size.units}`};
 	}
 `;
 
@@ -46,16 +49,14 @@ const LabelStyled = styled.label`
 `;
 
 export default class Like extends Component {
-	static defaultProps = {
-		color: '#616770',
-		size: '30px'
-	};
+	static defaultProps = {};
 
 	constructor(props) {
 		super(props);
 		this.state = {
-			collapsed: false,
-			likeValue: C.THUMB
+			collapsed: true,
+			likeValue: C.THUMB,
+			selected: false
 		};
 	}
 
@@ -68,15 +69,20 @@ export default class Like extends Component {
 	 */
 	getLikeState = (likeVal, newVal) => {
 		if (newVal === C.THUMB) return {
-			likeValue: (likeVal !== C.THUMB) ? C.THUMB : C.EMOJI.LIKE
+			likeValue: (likeVal !== C.THUMB) ? C.THUMB : C.THUMB_SEL,
+			selected: likeVal === C.THUMB
 		};
-		else return {likeValue: newVal};
+		else return {
+			likeValue: newVal,
+			selected: true
+		};
 	};
 
 	handleClick = (e) => {
 		e.preventDefault();
 		e.stopPropagation();
 
+		//if they click an emoji, just set the type
 		const newValue = (e.currentTarget.tagName === 'svg') ?
 			e.currentTarget.getAttribute('type') :
 			C.THUMB;
@@ -100,6 +106,7 @@ export default class Like extends Component {
 				<h4>Like Button</h4>
 				<BtnStyled
 					{...this.props}
+					selected={this.state.selected}
 					onMouseOver={this.handleOver}
 					onMouseOut={this.handleOver}
 					onClick={this.handleClick}
@@ -108,7 +115,7 @@ export default class Like extends Component {
 						<Icon type={this.state.likeValue} />
 						<span>Like</span>
 					</LabelStyled>
-					<LikeEmoji
+					<EmojiBox
 						collapsed={this.state.collapsed}
 						onClick={this.handleClick}
 					/>

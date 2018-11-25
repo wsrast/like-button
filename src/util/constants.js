@@ -7,5 +7,6 @@ export default {
 		SAD: 'sad',
 		ANGRY: 'angry'
 	},
-	THUMB: 'thumb'
+	THUMB: 'thumb-unselected',
+	THUMB_SEL: 'thumb-selected2'
 }
