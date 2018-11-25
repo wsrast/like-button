@@ -14,13 +14,11 @@ const BtnStyled = styled.div.attrs({
 
 	position: relative;
 
-	color: ${(props) => {
-		//console.log(`props: `, props);
-		return (props.selected) ? props.theme.selected: props.theme.unselected
-	}};
+	color: ${(props) =>
+		props.selected ? props.theme.selected : props.theme.unselected};
 	background-color: #fff;
 	min-width: 150px;
-	border: 1px solid ${(props) => props.unselected};
+	border: 1px solid ${({theme}) => theme.unselected};
 	border-radius: 4px;
 
 	padding: 8px;
@@ -36,8 +34,8 @@ const BtnStyled = styled.div.attrs({
 
 	.thumb,
 	.emoji {
-		width: ${({theme:{size}}) => `${size.value}${size.units}`};
-		height: ${({theme:{size}}) => `${size.value}${size.units}`};
+		width: ${({theme: {size}}) => `${size.value}${size.units}`};
+		height: ${({theme: {size}}) => `${size.value}${size.units}`};
 	}
 `;
 
@@ -45,7 +43,14 @@ const LabelStyled = styled.label`
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	min-width: 70%;
+	user-select: none;
+	font-weight: bold;
+	color: ${(props) => {
+		console.log(`props.theme: `, props.theme, `props: `, props);
+		return props.theme.emoji_text_colors[props.type] || props.theme.selected;
+	}};
+	
+	span {margin-left:8px;}
 `;
 
 export default class Like extends Component {
@@ -68,14 +73,31 @@ export default class Like extends Component {
 	 * @returns {Object}
 	 */
 	getLikeState = (likeVal, newVal) => {
-		if (newVal === C.THUMB) return {
-			likeValue: (likeVal !== C.THUMB) ? C.THUMB : C.THUMB_SEL,
-			selected: likeVal === C.THUMB
-		};
-		else return {
-			likeValue: newVal,
-			selected: true
-		};
+		if (newVal === C.THUMB)
+			return {
+				likeValue: likeVal !== C.THUMB ? C.THUMB : C.THUMB_SEL,
+				selected: likeVal === C.THUMB
+			};
+		else
+			return {
+				likeValue: newVal,
+				selected: true
+			};
+	};
+
+	getLikeValueLabel = () => {
+		const {likeValue} = this.state;
+		let val = C.EMOJI.LIKE;
+
+		if (
+			likeValue !== C.THUMB && //no value = 'Like'
+			likeValue !== C.THUMB_SEL && //thumb_sel or 'like' = 'Like'
+			likeValue !== C.EMOJI.LIKE
+		) {
+			val = likeValue; //any other = likeValue
+		}
+		//capitalize first letter
+		return val.charAt(0).toUpperCase() + val.slice(1);
 	};
 
 	handleClick = (e) => {
@@ -83,9 +105,10 @@ export default class Like extends Component {
 		e.stopPropagation();
 
 		//if they click an emoji, just set the type
-		const newValue = (e.currentTarget.tagName === 'svg') ?
-			e.currentTarget.getAttribute('type') :
-			C.THUMB;
+		const newValue =
+			e.currentTarget.tagName === 'svg'
+				? e.currentTarget.getAttribute('type')
+				: C.THUMB;
 
 		this.setState(({likeValue}) => {
 			return this.getLikeState(likeValue, newValue);
@@ -111,9 +134,9 @@ export default class Like extends Component {
 					onMouseOut={this.handleOver}
 					onClick={this.handleClick}
 				>
-					<LabelStyled>
+					<LabelStyled type={this.state.likeValue}>
 						<Icon type={this.state.likeValue} />
-						<span>Like</span>
+						<span>{this.getLikeValueLabel()}</span>
 					</LabelStyled>
 					<EmojiBox
 						collapsed={this.state.collapsed}

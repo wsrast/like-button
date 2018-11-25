@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import {ReactComponent as ThumbSel} from '../../assets/thumb-selected.svg';
+import {ReactComponent as ThumbSel} from '../../assets/thumb-selected2.svg';
 import {ReactComponent as ThumbUnsel} from '../../assets/thumb-unselected.svg';
 
 import {ReactComponent as LikeSVG} from '../../assets/like.svg';
