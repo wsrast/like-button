@@ -15,7 +15,7 @@ import {ReactComponent as AngrySVG} from '../../assets/angry.svg';
 import C from '../../util/constants';
 
 const SIcon = styled.div`
-	display:flex;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 `;
@@ -23,7 +23,7 @@ const SIcon = styled.div`
 const Icon = (props) => {
 	const {type} = props;
 	return (
-		<SIcon>
+		<SIcon className="icon">
 			{type === C.THUMB && <ThumbUnsel {...props} className="thumb" />}
 			{type === C.THUMB_SEL && <ThumbSel {...props} className="thumb" />}
 			{type === C.EMOJI.LIKE && <LikeSVG {...props} />}

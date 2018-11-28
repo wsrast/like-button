@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import EmojiBox from './EmojiBox';
 import styled from 'styled-components';
-import Icon from './Icon';
 import C from '../util/constants';
+import Label from './Label';
 
 const BtnStyled = styled.div.attrs({
 	'data-id': 'Like'
@@ -37,20 +37,6 @@ const BtnStyled = styled.div.attrs({
 		width: ${({theme: {size}}) => `${size.value}${size.units}`};
 		height: ${({theme: {size}}) => `${size.value}${size.units}`};
 	}
-`;
-
-const LabelStyled = styled.label`
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	user-select: none;
-	font-weight: bold;
-	color: ${(props) => {
-		console.log(`props.theme: `, props.theme, `props: `, props);
-		return props.theme.emoji_text_colors[props.type] || props.theme.selected;
-	}};
-	
-	span {margin-left:8px;}
 `;
 
 export default class Like extends Component {
@@ -134,10 +120,10 @@ export default class Like extends Component {
 					onMouseOut={this.handleOver}
 					onClick={this.handleClick}
 				>
-					<LabelStyled type={this.state.likeValue}>
-						<Icon type={this.state.likeValue} />
-						<span>{this.getLikeValueLabel()}</span>
-					</LabelStyled>
+					<Label
+						type={this.state.likeValue}
+						likeValueLabel={this.getLikeValueLabel()}
+					/>
 					<EmojiBox
 						collapsed={this.state.collapsed}
 						onClick={this.handleClick}

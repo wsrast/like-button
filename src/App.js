@@ -20,8 +20,6 @@ const theme = {
 	}
 };
 
-console.log(`theme: `, theme);
-
 const AppStyled = styled.div`
 	text-align: center;
 	background-color: #282c34;
