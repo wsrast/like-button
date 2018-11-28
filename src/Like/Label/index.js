@@ -17,9 +17,11 @@ const LabelStyled = styled.label`
 	}
 
 	& > .icon {
-		animation-duration: 500ms;
+		animation-duration: 400ms;
 		animation-name: bumpLeft;
 		transform-origin: bottom left;
+		animation-direction: alternate;
+		animation-iteration-count: 2;
 	}
 
 	@keyframes bumpLeft {
@@ -34,6 +36,7 @@ const LabelStyled = styled.label`
 
 const Label = (props) => {
 	const {type, likeValueLabel} = props;
+
 	return (
 		<LabelStyled {...props}>
 			<Icon type={type} />
