@@ -16,8 +16,8 @@ const LabelStyled = styled.label`
 		margin-left: 8px;
 	}
 
-	& > .icon {
-		animation-duration: 400ms;
+	&.active > .icon {
+		animation-duration: 200ms;
 		animation-name: bumpLeft;
 		transform-origin: bottom left;
 		animation-direction: alternate;
@@ -35,11 +35,13 @@ const LabelStyled = styled.label`
 `;
 
 const Label = (props) => {
-	const {type, likeValueLabel} = props;
+	const {type, likeValueLabel, isActive, handleAnimEnd} = props;
+
+	const clNames = `${isActive ? 'active' : ''}`;
 
 	return (
-		<LabelStyled {...props}>
-			<Icon type={type} />
+		<LabelStyled className={clNames} {...props}>
+			<Icon type={type} handleAnimEnd={handleAnimEnd} />
 			<span>{likeValueLabel}</span>
 		</LabelStyled>
 	);

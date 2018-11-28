@@ -21,17 +21,33 @@ const SIcon = styled.div`
 `;
 
 const Icon = (props) => {
-	const {type} = props;
+	const {type, handleAnimEnd, onClick, className} = props;
 	return (
-		<SIcon className="icon">
-			{type === C.THUMB && <ThumbUnsel {...props} className="thumb" />}
-			{type === C.THUMB_SEL && <ThumbSel {...props} className="thumb" />}
-			{type === C.EMOJI.LIKE && <LikeSVG {...props} />}
-			{type === C.EMOJI.LOVE && <LoveSVG {...props} />}
-			{type === C.EMOJI.HAHA && <HahaSVG {...props} />}
-			{type === C.EMOJI.WOW && <WowSVG {...props} />}
-			{type === C.EMOJI.SAD && <SadSVG {...props} />}
-			{type === C.EMOJI.ANGRY && <AngrySVG {...props} />}
+		<SIcon className="icon" onAnimationEnd={handleAnimEnd}>
+			{type === C.THUMB && (
+				<ThumbUnsel type={type} onClick={onClick} className="thumb" />
+			)}
+			{type === C.THUMB_SEL && (
+				<ThumbSel type={type} onClick={onClick} className="thumb" />
+			)}
+			{type === C.EMOJI.LIKE && (
+				<LikeSVG type={type} onClick={onClick} className={className} />
+			)}
+			{type === C.EMOJI.LOVE && (
+				<LoveSVG type={type} onClick={onClick} className={className} />
+			)}
+			{type === C.EMOJI.HAHA && (
+				<HahaSVG type={type} onClick={onClick} className={className} />
+			)}
+			{type === C.EMOJI.WOW && (
+				<WowSVG type={type} onClick={onClick} className={className} />
+			)}
+			{type === C.EMOJI.SAD && (
+				<SadSVG type={type} onClick={onClick} className={className} />
+			)}
+			{type === C.EMOJI.ANGRY && (
+				<AngrySVG type={type} onClick={onClick} className={className} />
+			)}
 		</SIcon>
 	);
 };

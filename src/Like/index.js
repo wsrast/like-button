@@ -47,7 +47,8 @@ export default class Like extends Component {
 		this.state = {
 			collapsed: true,
 			likeValue: C.THUMB,
-			selected: false
+			selected: false,
+			isActive: false
 		};
 	}
 
@@ -97,7 +98,9 @@ export default class Like extends Component {
 				: C.THUMB;
 
 		this.setState(({likeValue}) => {
-			return this.getLikeState(likeValue, newValue);
+			return Object.assign({}, this.getLikeState(likeValue, newValue), {
+				isActive: true
+			});
 		});
 	};
 
@@ -107,6 +110,10 @@ export default class Like extends Component {
 				collapsed: !state.collapsed
 			};
 		});
+	};
+
+	handleAnimEnd = () => {
+		this.setState({isActive: false});
 	};
 
 	render() {
@@ -123,6 +130,8 @@ export default class Like extends Component {
 					<Label
 						type={this.state.likeValue}
 						likeValueLabel={this.getLikeValueLabel()}
+						isActive={this.state.isActive}
+						handleAnimEnd={this.handleAnimEnd}
 					/>
 					<EmojiBox
 						collapsed={this.state.collapsed}
