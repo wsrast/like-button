@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import {LikeContextConsumer} from '../../util/like-context';
+import Label from './Label';
+import EmojiBox from './EmojiBox';
 
 const BtnStyled = styled.div.attrs({
 	'data-id': 'Btn'
@@ -47,7 +49,8 @@ const Btn = (props) => {
 					onMouseOut={handleOver}
 					onClick={handleClick}
 				>
-					{props.children}
+					<Label />
+					<EmojiBox />
 				</BtnStyled>
 			)}
 		</LikeContextConsumer>

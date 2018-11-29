@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import Icon from '../Icon';
-import {LikeContextConsumer} from '../../util/like-context';
+import Icon from '../../Icon';
+import {LikeContextConsumer} from '../../../util/like-context';
 
 const LabelStyled = styled.label`
 	display: flex;

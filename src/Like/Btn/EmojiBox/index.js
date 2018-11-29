@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import C from '../../util/constants';
-import Icon from '../Icon';
-import {LikeContextConsumer} from '../../util/like-context';
+import C from '../../../util/constants';
+import Icon from '../../Icon';
+import {LikeContextConsumer} from '../../../util/like-context';
 
 const EmojiBoxStyled = styled.div.attrs({
 	'data-id': 'EmojiBox'
