@@ -3,6 +3,7 @@ import EmojiBox from './EmojiBox';
 import styled from 'styled-components';
 import C from '../util/constants';
 import Label from './Label';
+import {LikeContextProvider} from '../util/like-context';
 
 const BtnStyled = styled.div.attrs({
 	'data-id': 'Like'
@@ -118,7 +119,7 @@ export default class Like extends Component {
 
 	render() {
 		return (
-			<section>
+			<LikeContextProvider value={this.state}>
 				<h4>Like Button</h4>
 				<BtnStyled
 					{...this.props}
@@ -138,7 +139,7 @@ export default class Like extends Component {
 						onClick={this.handleClick}
 					/>
 				</BtnStyled>
-			</section>
+			</LikeContextProvider>
 		);
 	}
 }

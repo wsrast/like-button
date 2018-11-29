@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Icon from '../Icon';
+import {LikeContextConsumer} from '../../util/like-context';
 
 const LabelStyled = styled.label`
 	display: flex;
@@ -40,10 +41,14 @@ const Label = (props) => {
 	const clNames = `${isActive ? 'active' : ''}`;
 
 	return (
-		<LabelStyled className={clNames} {...props}>
-			<Icon type={type} handleAnimEnd={handleAnimEnd} />
-			<span>{likeValueLabel}</span>
-		</LabelStyled>
+		<LikeContextConsumer>
+			{({likeValue}) => (
+				<LabelStyled className={clNames} {...props}>
+					<Icon type={likeValue} handleAnimEnd={handleAnimEnd} />
+					<span>{likeValueLabel}</span>
+				</LabelStyled>
+			)}
+		</LikeContextConsumer>
 	);
 };
 
