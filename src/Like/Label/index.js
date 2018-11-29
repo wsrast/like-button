@@ -35,17 +35,13 @@ const LabelStyled = styled.label`
 	}
 `;
 
-const Label = (props) => {
-	const {type, likeValueLabel, isActive, handleAnimEnd} = props;
-
-	const clNames = `${isActive ? 'active' : ''}`;
-
+const Label = () => {
 	return (
 		<LikeContextConsumer>
-			{({likeValue}) => (
-				<LabelStyled className={clNames} {...props}>
+			{({likeValue, handleAnimEnd, isActive, getLikeValueLabel}) => (
+				<LabelStyled className={isActive ? 'active' : ''} type={likeValue}>
 					<Icon type={likeValue} handleAnimEnd={handleAnimEnd} />
-					<span>{likeValueLabel}</span>
+					<span>{getLikeValueLabel()}</span>
 				</LabelStyled>
 			)}
 		</LikeContextConsumer>
